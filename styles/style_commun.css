@@ -138,13 +138,9 @@ nav ul li.sous-menu ul li a{
                     label.logo{
                         font-size:30px;
                         padding-left:50px ;}
-                        nav ul li a {
+                     nav ul li a {
                             font-size: 16px;
                         }
-                 
-                        .checkbtn{
-                            display: block;
-                    }
                     ul{
                         position: absolute;
                         width: 100%;
@@ -155,37 +151,32 @@ nav ul li.sous-menu ul li a{
                         left:-100%;
                         text-align: center;
                         }
-                        nav ul li{
+                    nav ul li{
                         display: block;
                         margin:50px 0 ; 
                         line-height: 30px;
                         }
                         
-                        nav ul li a{
+                    nav ul li a{
                         font-size: 20px;
                         }
-                        nav ul li.sous-menu:hover ul {
-                            
-                            position: absolute;
-                            width: 40%;
-                            height: 40vh;
-                            background-color:#4a6580;
-                            transition: all .5s;
-                            top:80;
-                            left:-100%;
-                            text-align: center;
-                            }
-                            nav ul li.sous-menu:hover ul li{
-                            display: block;
-                            margin:50px 0 ; 
-                            line-height: 30px;
-                            }
-                           
-                       
                     #check:checked ~ ul{
                     left: 0%;
                     }
-               
+                    .checkbtn{
+                        display: block;
+                     }
+                                        
+                    nav ul li.sous-menu ul {
+                        background-color: #580e4a;
+                        position: static; 
+                        width: 70vw;
+                        margin-left: 15vw;
+                        margin-right: 15vw;
+                        height: fit-content;
+                        box-align: center;
+                    }
+                   
                     .images{display: none;}
                   
                    
