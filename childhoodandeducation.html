@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
+      <!--Partie head qui contient les informations necessaires + lien vers les styles et icon-->
+     <head>
       <meta charset="UTF-8" >
       <meta name="viewport" content="width=device-width,initial-scale=1.0" >
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <link rel="stylesheet" href="styles/style_commun.css"> 
       <link rel="icon"   href="images/Albert_Einstein_1947.jpg">
       <title>Childhood And Education-Albert Einstein</title>
+         <!--En plus de style commun une petite modification a cause de particularité de chaque page -->
+         <style>    .images{
+          width:300px ;
+          border-right: 3px solid #943c84;
+          height: 200vh;}
+      </style>
       </head>
-
-    <body>
+            <!--Partie Body-->
+     <body>
       <header id="documentation">
           </header>
+            <!--la Bare de navigation Commune a toute les pages -->
         <nav>
+            <!--L'icon de nav-bar qui sera affiché si width de window < 1080px -->
           <input  type="checkbox" id="check" >
           <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
           </label>
           <label class="logo">Biography</label>
-          <ul id="nav_liste">
+          <ul id="nav_liste">     <!--La liste de navigation a droite avec icons-->
             <li><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
             <li class="sous-menu"><a href="#"> <i class="fa fa-caret-down"></i> More</a>
               <ul>
@@ -34,12 +42,11 @@
              <li><a href="#"> <i class="fa fa-comment"></i>  FeedBack</a></li>
         </ul>
         </nav>
- 
- 
-    <main>
-        <!--1st page-->
+    <!--La partie du contenu principale main -->
+     <main>
+        <!--1ere page-->
     <div class="article">         
-        <div class="images">
+        <div class="images">  <!--partie a gauche des images -->
           <center>
             <img  class="image" src="images\175px-EinsteinFather.jpg" alt="Albert Einstein" title="Albert Einstein"> 
             <img  class="image" src="images\330px-Albert_Einstein_at_the_age_of_three_(1882).jpg" alt="Albert Einstein" title="Albert Einstein"> 
@@ -49,7 +56,7 @@
           </center>
           <h2 id="up"><a href="#documentation"><i class="fa fa fa-arrow-up"></i> </a></h2>
         </div>
-        <div class="paragraphs">
+        <div class="paragraphs"> <!--partie a droite des paragraphes -->
           <center><h1>Childhood And Education </h1></center>
           <p>Einstein’s parents were secular, middle-class Jews. His father, Hermann Einstein, was originally a featherbed salesman and later ran an electrochemical factory with moderate success. His mother, the former Pauline Koch, ran the family household. He had one sister, Maria (who went by the name Maja), born two years after Albert.</p>
           <br/>
@@ -68,7 +75,7 @@
         </div>
       </div>
       </main>  
-   
+   <!--Un footer commun avec une adrresse mail -->
      <footer>
       <center> <p> <br/>Made By "Aicha OUADAH" & "Salah Eddine MEKAOUI"</p><br/>
                <address><i class="fa fa-envelope"></i>   Contact us : <a href="#"> Salahaicha@gmail.com </a> </address>
