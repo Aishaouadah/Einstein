@@ -1,0 +1,144 @@
+
+.card1 {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 7px; 
+    margin: 9px;
+    width: 35ex;
+}
+
+.card-p{
+text-align: center;
+}
+    .card_h4{
+        text-align: center;
+      color: #943c84;
+      margin: 5px;
+      font-size: larger;
+  }
+
+  .card1:hover  {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+    
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+
+.card-image{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 55%;
+}
+.card{
+   display: flex;
+    
+}
+#h4_resume{
+    font-size:xx-large;
+    font-family:  "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#p_resume{
+    margin-top: 5%;
+    font-size: medium;
+}
+#img_resume{
+    width: 17em;
+    height: 20em;   
+    margin-left: 16%;
+    margin-bottom: 9%;
+    margin-TOP: 9%;
+    margin-right: 10%;
+    border: 1px solid #ddd;
+  }
+  
+#quick_facts{
+    margin:5% ;
+}
+ aside{
+     width: 20em;
+     border-style: solid;
+     border-color: #777b80;
+     border-width: 2px;
+     margin-left: 10%;
+     margin-bottom: 10%;
+     margin-right: 10%;
+ }
+ .h4_partie2, .h4_quick,#h5_bio{
+    color: #777b80;
+} 
+#h4_resume{
+    font-family: cursive;
+}
+ .partie{
+     display: flex;
+ }
+ #partie2{
+     margin: 5%;
+     font-size: 20px;
+ }
+ 
+ .partie{
+    margin: 0;
+    padding: 0em;
+}
+#slider_quotes{
+    margin: 5%;
+}
+
+#rectangle{
+   padding: 70px;
+   background-color:#eeebeb ;
+   border: 3px solid #943c84;
+   height: 200px;
+   color: #5b5c5e;
+   width: max-content;
+   border-radius: 4px;
+   font-size: x-large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+  h2   {
+    color: #943c84;
+    font-size: xx-large;
+    padding-bottom: 29px;
+}
+
+@media(max-width: 1080px)
+{
+                
+                    #rectangle{
+                        width: 80vw;
+                    }
+                    .card1 {
+                        width: fit-content;
+                        height: fit-content;
+                    }
+        }
+
+@media(max-width: 800px)
+{   aside{
+
+    display: none;     
+
+}
+.partie{
+    display: block;
+    margin: 0;
+}
+    #img_resume{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 40%;
+        }
+      
+          
+           
+}
