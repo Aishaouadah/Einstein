@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Partie head qui contient les informations necessaires + lien vers les styles et icon-->
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="stylesheet" href="styles/style_feedback.css"> 
+      <link rel="stylesheet" href="styles/style_commun.css"> 
+      <link rel="icon"   href="images/Albert_Einstein_1947.jpg">
+      <title> Feedback-Albert Einstein</title>
+    </head> 
+<body>
+    <header id="documentation">
+    </header>
+    <nav>
+        <!--L'icon de nav-bar qui sera affiché si width de window < 1080px -->
+      <input  type="checkbox" id="check" >
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Biography</label>
+      <ul id="nav_liste">     <!--La liste de navigation a droite avec icons-->
+        <li><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
+        <li class="sous-menu"><a href="#"> <i class="fa fa-caret-down"></i> More</a>
+          <ul>
+            <li><a href="childhoodandeducation.html">Childhood And Education</a></li>
+            <li><a href="personallife.html">Personal Life</a></li>
+            <li><a href="scientificcareer.html">Scientific Career</a></li>
+            <li title="Increasing Professional Isolation And Death"><a href="increasingprofessional.html">Increasing Professional Isolation...</a></li>
+           </ul>
+         </li>
+         <li><a href="#"> <i class="fa fa-share-alt"></i>  Share</a></li>
+         <li title="Wikipédia"><a href="#"> <i class="fa fa-file"></i>  Ressources</a></li>
+         <li><a href="Feedback.html"> <i class="fa fa-comment"></i>  FeedBack</a></li>
+        </ul>
+    </nav>
+<main>
+    <!--1ere page-->
+<div class="container">  
+    <form>
+        <br/>
+        <h1>Give your Feedback</h1>
+        <br/>
+        <div class="id">
+            <input type="text" placeholder="Full name">
+            <i class="far fa-user"></i>
+          </div>
+          <br/>
+          <div class="id">
+            <input type="email" placeholder="Email adress">
+            <i class="far fa-envelope"></i>
+          </div>
+          <br/>
+          <textarea cols="50" rows="15" placeholder="Enter your opinions here..."></textarea>
+          <br/>
+           <button>Send</button>
+    </form>
+
+  </div>
+  </main>  
+<!--Un footer commun avec une adrresse mail -->
+ <footer>
+ 
+          <center> 
+            <p> <br/>Made By "Aicha OUADAH" & "Salah Eddine MEKAOUI"</p><br/>
+           <address><i class="fa fa-envelope"></i>   Contact us : <a href="#"> Salahaicha@gmail.com </a> </address>
+          </center> 
+</footer>
+
+</body>
+</html>
